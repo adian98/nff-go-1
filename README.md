@@ -13,6 +13,15 @@ README of nff-go
 - pip3 install meson ninja
 
 
+yum install libibverbs-devel libibverbs-utils librdmacm librdmacm-devel librdmacm-utils perl-Switch elfutils-libelf-devel -y
+yum install libpcap -y
+yum install libpcap-devel -y
+
+yum -y install numactl  -y
+
+yum install -y epel-release
+yum install python36
+
 - git clone https://github.com/libbpf/libbpf.git
 - cd libbpf/src
 - make
